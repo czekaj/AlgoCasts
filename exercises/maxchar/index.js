@@ -8,7 +8,7 @@
 function maxChar(str) {
     let maxcount = 0;
     let result = '';
-    let count = new Object();
+    let count = {};
     for (let char of str) {
         if (!isNaN(count[char])) {
             count[char]++;
